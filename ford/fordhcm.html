@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+    <head>
+        <title>Test</title>
+        <link rel="stylesheet" type="text/css" href="css/css.css">
+        <!-- <link rel="stylesheet" type="text/css" href="css/version-1.css">         -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="test.js"></script>
+    </head>
+    <body class="special">
+        <header id="header">
+            <div id="top_navi">
+                <div class="alignall">
+                    <div id="back2top"><span>Về đầu trang</span></div>
+                    <div id="top_navi_ct">
+                        <a href="http://otos.vn/xe-yeu-thich/">
+                            <div class="top_navi_each" id="carlike_count">
+                                <div class="ico link" id="ico_like"></div>
+                                <div class="navi_txt">Xe yêu thích</div>
+                                <span id="favourite_count">(0 xe)</span>
+                            </div>
+                        </a>
+                        <a href="http://otos.vn/danh-sach-so-sanh-xe/">
+                            <div class="top_navi_each" id="carcompare_count">
+                                <div class="ico link" id="ico_compare"></div>
+                                <div class="navi_txt">So sánh xe</div>
+                                <span id="count_cookies_compare">(0 xe)</span>
+                            </div>
+                        </a>
+                        <a id="dLabel" href="http://otos.vn/dang-ky?ref=dk" rel="nofollow">
+                            <div class="top_navi_each">
+                                <div class="ico link" id="ico_reg"></div>
+                                <div class="navi_txt">Đăng ký</div>
+                            </div>
+                        </a>
+                        <a href="http://otos.vn/dang-ky" rel="nofollow">
+                            <div class="top_navi_each">
+                                <div class="ico link" id="ico_login"></div>
+                                <div class="navi_txt">Đăng nhập</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="sub_head">
+                <div class="alignall">
+                    <a href="http://otos.vn">
+                        <div id="logo_head">
+                            <img src="images/logo.png" alt="OtoS - Sàn mua bán - Tin tức - Dịch vụ ô tô" title="OtoS - Sàn mua bán - Tin tức - Dịch vụ ô tô">
+                        </div>
+                    </a>
+                    <div id="top_banner">
+                        <div class="full relative gdn_standard">
+                            <div class="banner_all banner728x90">
+                                <a href="http://otos.vn/trang-tin/Tra-cuu-tat-tan-tat-ve-o-to-voi-ung-dung-moi-cua-OtoS-vn-6873" target="" id="bnId_423" rel="nofollow">
+                                    <div class="banner_ct">
+                                        <img src="http://otos.vn/otosvn/images/banner/20161212074954801.jpg">
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end sub-head -->
+            <div id="menu">
+                <div class="alignall">
+                    <a href="http://otos.vn"><img id="logo_w" src="http://otos.vn/ContentNew/images/logo_w.png" alt="OtoS - Sàn mua bán - Tin tức - Dịch vụ ô tô" title="OtoS - Sàn mua bán - Tin tức - Dịch vụ ô tô"></a>
+                    <div id="wrap_menu" class="c2m">
+                        <div class="each_menu" id="menu_home">
+                            <a class="amenu" href="http://otos.vn"><img src="http://otos.vn/ContentNew/images/ico_home.png"></a>
+                        </div>
+                        <div class="each_menu has_sub" id="menu_car">
+                            <a class="amenu" href="http://otos.vn/tim-xe"><strong>Mua xe</strong></a>
+                            <div class="show_exmenu"></div>
+                            <div class="ex_menu" id="car_menu">
+                                <div class="each_col_menu col1">
+                                    <a href="http://otos.vn/tim-xe">
+                                        <div class="ecm_head">
+                                            <strong>Tìm nhanh xe</strong>
+                                        </div>
+                                    </a>
+                                    <a href="/tim-xe/xe-cu">
+                                        <div class="ex_menu_each">Xe ô tô cũ</div>
+                                    </a>
+                                    <a href="/tim-xe/xe-moi">
+                                        <div class="ex_menu_each">Xe ô tô mới</div>
+                                    </a>
+                                </div>
+                                <div class="each_col_menu col2">
+                                    <a href="http://otos.vn/tim-xe">
+                                        <div class="ecm_head">
+                                            <strong>Tìm nhanh theo thương hiệu</strong>
+                                        </div>
+                                    </a>
+                                    <a title="Toyota" href="/tim-xe/Toyota">
+                                        <div class="ex_menu_each">
+                                            <img src="http://otos.vn/ContentNew/images/logo_01_toyota.jpg">Toyota
+                                        </div>
+                                    </a>
+                                    <a title="Ford" href="/tim-xe/Ford">
+                                        <div class="ex_menu_each">
+                                            <img src="http://otos.vn/ContentNew/images/logo_02_ford.jpg">Ford
+                                        </div>
+                                    </a>
+                                    <a title="Hyundai" href="/tim-xe/Hyundai">
+                                        <div class="ex_menu_each">
+                                            <img src="http://otos.vn/ContentNew/images/logo_03_hyundai.jpg">Hyundai
+                                        </div>
+                                    </a>
+                                    <a title="Honda" href="/tim-xe/Honda">
+                                        <div class="ex_menu_each">
+                                            <img src="http://otos.vn/ContentNew/images/logo_04_honda.jpg">Honda
+                                        </div>
+                                    </a>
+                                    <a title="KIA" href="/tim-xe/KIA">
+                                        <div class="ex_menu_each">
+                                            <img src="http://otos.vn/ContentNew/images/logo_05_kia.jpg">Kia
+                                        </div>
+                                    </a>
+                                    <a title="Chevrolet" href="/tim-xe/Chevrolet">
+                                        <div class="ex_menu_each">
+                                            <img src="http://otos.vn/ContentNew/images/logo_06_chevrolet.jpg">Chevrolet
+                                        </div>
+                                    </a>
+                                    <a title="Mazda" href="/tim-xe/Mazda">
+                                        <div class="ex_menu_each">
+                                            <img src="http://otos.vn/ContentNew/images/logo_07_mazda.jpg">Mazda
+                                        </div>
+                                    </a>
+                                    <a title="Mercedes-Benz" href="/tim-xe/Mercedes-Benz">
+                                        <div class="ex_menu_each">
+                                            <img src="http://otos.vn/ContentNew/images/logo_09_mercedes_benz.jpg">MercedesBenz
+                                        </div>
+                                    </a>
+                                    <a title="Nissan" href="/tim-xe/Nissan">
+                                        <div class="ex_menu_each">
+                                            <img src="http://otos.vn/ContentNew/images/logo_10_nissan.jpg">Nissan
+                                        </div>
+                                    </a>
+                                    <a title="Audi" href="/tim-xe/Audi">
+                                        <div class="ex_menu_each">
+                                            <img src="http://otos.vn/ContentNew/images/logo_13_audi.jpg">Audi
+                                        </div>
+                                    </a>
+                                    <a title="BMW" href="/tim-xe/BMW">
+                                        <div class="ex_menu_each">
+                                            <img src="http://otos.vn/ContentNew/images/logo_14_bmw.jpg">BMW
+                                        </div>
+                                    </a>
+                                    <a title="Lexus" href="/tim-xe/Lexus">
+                                        <div class="ex_menu_each">
+                                            <img src="http://otos.vn/ContentNew/images/logo_15_lexus.jpg">Lexus
+                                        </div>
+                                    </a>
+                                    <a href="/tim-xe/" rel="nofollow">
+                                        <div class="ex_menu_each">
+                                            <strong>Xem tất cả</strong>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="each_col_menu col3">
+                                    <a href="http://otos.vn/tim-xe">
+                                        <div class="ecm_head">
+                                            <strong>Tìm xe theo giá</strong>
+                                        </div>
+                                    </a>
+                                    <a href="/tim-xe/gia:0-300">
+                                        <div class="ex_menu_each">Dưới 300 triệu</div>
+                                    </a>
+                                    <a href="/tim-xe/gia:300-400">
+                                        <div class="ex_menu_each">300 triệu đến 400 triệu</div>
+                                    </a>
+                                    <a href="/tim-xe/gia:400-600">
+                                        <div class="ex_menu_each">400 triệu đến 600 triệu</div>
+                                    </a>
+                                    <a href="/tim-xe/gia:600-800">
+                                        <div class="ex_menu_each">600 triệu đến 800 triệu</div>
+                                    </a>
+                                    <a href="/tim-xe/gia:800-1000">
+                                        <div class="ex_menu_each">800 triệu đến 1 tỷ</div>
+                                    </a>
+                                    <a href="/tim-xe/gia:1000-1500">
+                                        <div class="ex_menu_each">1 tỷ đến 1 tỷ 500 triệu</div>
+                                    </a>
+                                    <a href="/tim-xe/gia:1500-2500">
+                                        <div class="ex_menu_each">1 tỷ 500 triệu đến 2 tỷ 500 triệu</div>
+                                    </a>
+                                    <a href="/tim-xe/gia:2500-3500">
+                                        <div class="ex_menu_each">2 tỷ 500 triệu đến 3 tỷ 500 triệu</div>
+                                    </a>
+                                    <a href="/tim-xe/gia:3500-5500">
+                                        <div class="ex_menu_each">3 tỷ 500 triệu đến 5 tỷ 500 triệu</div>
+                                    </a>
+                                    <a href="/tim-xe/gia:5500-10000">
+                                        <div class="ex_menu_each">5 tỷ 500 triệu đến 10 tỷ</div>
+                                    </a>
+                                    <a href="/tim-xe/">
+                                        <div class="ex_menu_each">
+                                            <strong>Xem tất cả</strong>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="each_col_menu col4">
+                                    <a href="http://otos.vn/tim-xe">
+                                        <div class="ecm_head">
+                                            <strong>Tìm xe theo vị trí</strong>
+                                        </div>
+                                    </a>
+                                    <a href="/tim-xe/tp-ho-chi-minh">
+                                        <div class="ex_menu_each">Tp.Hồ Chí Minh</div>
+                                    </a>
+                                    <a href="/tim-xe/tp-ha-noi">
+                                        <div class="ex_menu_each">Tp.Hà Nội</div>
+                                    </a>
+                                    <a href="/tim-xe/tp-da-nang">
+                                        <div class="ex_menu_each">Tp.Đà Nẵng</div>
+                                    </a>
+                                    <a href="/tim-xe/dong-nai">
+                                        <div class="ex_menu_each">Đồng Nai</div>
+                                    </a>
+                                    <a href="/tim-xe/tp-hai-phong">
+                                        <div class="ex_menu_each">Tp.Hải Phòng</div>
+                                    </a>
+                                    <a href="/tim-xe/binh-duong">
+                                        <div class="ex_menu_each">Bình Dương</div>
+                                    </a>
+                                    <a href="/tim-xe/tp-can-tho">
+                                        <div class="ex_menu_each">Tp.Cần Thơ</div>
+                                    </a>
+                                    <a href="/tim-xe/ba-ria---vung-tau">
+                                        <div class="ex_menu_each">Bà Rịa - Vũng Tàu</div>
+                                    </a>
+                                    <a href="/tim-xe/thai-nguyen">
+                                        <div class="ex_menu_each">Thái Nguyên</div>
+                                    </a>
+                                    <a href="/tim-xe/lam-dong">
+                                        <div class="ex_menu_each">Lâm Đồng</div>
+                                    </a>
+                                    <a href="/tim-xe/">
+                                        <div class="ex_menu_each">
+                                            <strong>Xem tất cả</strong>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="each_menu">
+                            <a class="amenu" href="http://otos.vn/tham-khao-gia"><strong>Tham khảo giá</strong></a>
+                        </div>
+                        <div class="each_menu"><a class="amenu" href="http://otos.vn/trang-tin"><strong>Trang tin</strong></a></div>
+                        <div class="each_menu"><a class="amenu" href="http://otos.vn/trang-tin/tin-tuc"><strong>Tin tức</strong></a></div>
+                        <div class="each_menu"><a class="amenu" href="http://otos.vn/trang-tin/tu-van"><strong>Tư vấn</strong></a></div>
+                        <div class="each_menu"><a class="amenu" href="http://otos.vn/trang-tin/danh-gia-xe"><strong>Đánh giá xe</strong></a></div>
+                        <div class="each_menu"><a class="amenu" href="http://otos.vn/trang-tin/so-sanh-xe"><strong>So sánh xe</strong></a></div>
+                        
+                        <div class="each_menu"><a class="amenu" href="http://otos.vn/trang-tin/khuyen-mai"><strong>Khuyến mãi</strong></a></div>
+                        <div class="each_menu active"><a class="amenu" href="http://otos.vn/trang-tin/video"><strong>Video</strong></a></div>
+                        <div class="each_menu"><a class="amenu" href="http://otos.vn/trang-tin/hoi-dap"><strong>Hỏi đáp</strong></a></div>
+                    </div>
+                    <!-- end wrap_menu -->
+                    <div id="menu_res" class="c2m">
+                        <div class="mres_e"></div><div class="mres_e"></div><div class="mres_e"></div>
+                    </div>
+                    <div id="social_nw">
+                        <a href="https://www.facebook.com/otos.com.vn" target="_blank" rel="nofollow">
+                            <div class="each_snw as_ico" id="as_facebook"></div>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCZEeEPXUpUeSZToGFM8chgg" target="_blank" rel="nofollow">
+                            <div class="each_snw as_ico" id="as_youtube"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- end menu -->
+            <div class="fixcompare" style="display:none;">
+                <div class="compare_total">
+                    <a href="http://otos.vn/danh-sach-so-sanh-xe/" title="So sánh xe">(<span id="idTotalCar">0</span> xe)</a>
+                </div>
+                <div class="likecar_total">
+                    <a href="http://otos.vn/xe-yeu-thich" title="Xe yêu thích">(<span id="idFavouriteCar">0</span> xe)</a>
+                </div>
+            </div>
+            
+        </header>
+        <div class="clearfix"></div>
+        <!-- end header -->
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row home-1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center item">
+                                <h2>BÁO GIÁ TỐT NHẤT</h2>
+                                <p>Click đăng ký ngay để nhận báo giá khuyến mãi mới nhất</p>
+                                <a class="btn btn-blue" href="#" data-toggle="modal" data-target="#myModalBG">
+                                    <img src="https://c8.staticflickr.com/9/8607/28501299991_64ddae98da_o.jpg">
+                                </a>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center item">
+                                <h2>TƯ VẤN MUA XE TRẢ GÓP</h2>
+                                <p>Hỗ trợ trả góp tất cả các dòng xe với lãi suất ưu đãi nhất</p>
+                                <a class="btn btn-blue" href="#" data-toggle="modal" data-target="#myModalVay">
+                                    <img src="https://c1.staticflickr.com/8/7666/28295380200_b0d4a3d67c_o.jpg">
+                                </a>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center item">
+                                <h2>LÁI XE THỬ MIỄN PHÍ</h2>
+                                <p>Hãy lái thử để tận hưởng trải nghiệm tuyệt vời từ xe Ford</p>
+                                <a class="btn btn-blue" href="#" data-toggle="modal" data-target="#myModaLT">
+                                    <img src="https://c2.staticflickr.com/9/8545/27964156393_d99bbf5023_o.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row home-2">
+                    <div class="container">
+                        <div class="row">
+                            <h2 class="text-center title-home">SẢN PHẨM CỦA SÀI GÒN FORD CAO THẮNG</h2>
+                            <div class="product-home">
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+                                    <a href="http://fordhcm.net/danh-muc/ford-ecosport/" class="text-center" title="FORD ECOSPORT">
+                                        <img class="img-responsive" alt="FORD ECOSPORT" src="http://fordhcm.net/wp-content/uploads/2016/10/ford_ecosport.png">
+                                    </a>
+                                    <a class="btn btn-blue" href="http://fordhcm.net/danh-muc/ford-ecosport/" title="FORD ECOSPORT">
+                                        <span>FORD ECOSPORT</span>
+                                    </a>
+                                    <p>Giá tham khảo: <span>585.000.000</span> VND</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+                                    <a href="http://fordhcm.net/danh-muc/ford-everest/" class="text-center" title="FORD EVEREST">
+                                        <img class="img-responsive" alt="FORD EVEREST" src="http://fordhcm.net/wp-content/uploads/2016/10/ford_everest.png">
+                                    </a>
+                                    <a class="btn btn-blue" href="http://fordhcm.net/danh-muc/ford-everest/" title="FORD EVEREST">
+                                        <span>FORD EVEREST</span>
+                                    </a>
+                                    <p>Giá tham khảo: <span>1.249.000.000</span> VND</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+                                    <a href="http://fordhcm.net/danh-muc/ford-explorer/" class="text-center" title="FORD EXPLORER">
+                                        <img class="img-responsive" alt="FORD EXPLORER" src="http://fordhcm.net/wp-content/uploads/2016/10/ford_explorer.png">
+                                    </a>
+                                    <a class="btn btn-blue" href="http://fordhcm.net/danh-muc/ford-explorer/" title="FORD EXPLORER">
+                                        <span>FORD EXPLORER</span>
+                                    </a>
+                                    <p>Giá tham khảo: <span>2.180.000.000</span> VND</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+                                    <a href="http://fordhcm.net/danh-muc/ford-fiesta/" class="text-center" title="FORD FIESTA">
+                                        <img class="img-responsive" alt="FORD FIESTA" src="http://fordhcm.net/wp-content/uploads/2016/10/ford_fiesta.png">
+                                    </a>
+                                    <a class="btn btn-blue" href="http://fordhcm.net/danh-muc/ford-fiesta/" title="FORD FIESTA">
+                                        <span>FORD FIESTA</span>
+                                    </a>
+                                    <p>Giá tham khảo: <span>536.000.000</span> VND</p>
+                                </div>
+                            </div>
+                            
+                            <div class="product-home col-md-offset-2">
+                                <div class="row">
+                                    
+                                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+                                        <a href="http://fordhcm.net/danh-muc/ford-focus/" class="text-center" title="FORD FOCUS">
+                                            <img class="img-responsive" alt="FORD FOCUS" src="http://fordhcm.net/wp-content/uploads/2016/10/ford_focus.png">
+                                        </a>
+                                        <a class="btn btn-blue" href="http://fordhcm.net/danh-muc/ford-focus/" title="FORD FOCUS">
+                                            <span>FORD FOCUS</span>
+                                        </a>
+                                        <p>Giá tham khảo: <span>789.000.000</span> VND</p>
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+                                        <a href="http://fordhcm.net/danh-muc/ford-ranger/" class="text-center" title="FORD RANGER">
+                                            <img class="img-responsive" alt="FORD RANGER" src="http://fordhcm.net/wp-content/uploads/2016/10/ford_ranger.png">
+                                        </a>
+                                        <a class="btn btn-blue" href="http://fordhcm.net/danh-muc/ford-ranger/" title="FORD RANGER">
+                                            <span>FORD RANGER</span>
+                                        </a>
+                                        <p>Giá tham khảo: <span>619.000.000</span> VND</p>
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+                                        <a href="http://fordhcm.net/danh-muc/ford-transit/" class="text-center" title="FORD TRANSIT">
+                                            <img class="img-responsive" alt="FORD TRANSIT" src="http://fordhcm.net/wp-content/uploads/2016/10/ford_transit.png">
+                                        </a>
+                                        <a class="btn btn-blue" href="http://fordhcm.net/danh-muc/ford-transit/" title="FORD TRANSIT">
+                                            <span>FORD TRANSIT</span>
+                                        </a>
+                                        <p>Giá tham khảo: <span>872.000.000</span> VND</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row home-3">
+                    <div class="container">                        
+                        <h2 class="text-center title-home">GIỚI THIỆU VỀ SÀI GÒN FORD</h2>
+                        <p>Tính từ năm 2000 đến nay, Saigon Ford đã khẳng định vị trí thương hiệu vững chắc,
+                            luôn tiên phong trong phong cách phục vụ và tư vấn cho khách hàng, đồng thời luôn bền
+                            vững với vị trí số 1 về các loại hình dịch vụ. Trong suốt 16 năm hoạt động và phát triển
+                            Saigon Ford luôn nỗ lực và phát triển sáng tạo không ngừng về 2 loại hình hoạt động chính là:
+                            Dịch vụ và Bán hàng, luôn là người bạn đồng hành trên mọi chặng đường của khách hàng.
+                        </p>
+                        <img class="img-responsive" src="http://fordhcm.net/wp-content/themes/fordhcm/images/gioi-thieu-ve-ford-cao-thang.png">                        
+                    </div>
+                </div>
+                <!-- end home-3 -->
+                <div class="row home-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
+                                <img class="img-responsive" src="http://fordhcm.net/wp-content/themes/fordhcm/images/mstuoi.png">
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
+                                <h2>Tư vấn viên</h2>
+                                <h3>Phó Giám Đốc Kinh Doanh Sài Gòn Ford Cao Thắng </h3>
+                                <p>Kinh nghiệm hơn 10 năm tư vấn xe.<br> Xin hãy liên hệ ngay để được tư vấn chính xác và nhận được khuyến mãi nhiều nhất.</p>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                        <div class="address ">
+                                            <h4 class="title"><i class="fa fa-home"></i> Văn Phòng </h4>
+                                            <div class="box-address">
+                                                <p><i class="fa fa-map-marker"></i> Địa chỉ: 61A Cao Thắng, Q.3, HCM</p>
+                                                <p><i class="fa fa-phone"></i> Điện thoại: (08) 3.8181.458 | Fax: (08) 3.8181.466
+                                                </p>
+                                                <p><i class="fa fa-phone"></i> Hotline: 0932.61.63.61</p>
+                                                <p><i class="fa fa-envelope-o"></i> Email: tthtuoi28@gmail.com</p>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="maps col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                        <h4 class="title"><i class="fa fa-tags"></i> Bản Đồ</h4>
+                                        <img src="http://fordhcm.net/wp-content/themes/fordhcm/images/maps.png" alt="" class="img-responsive">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end home-4 -->
+                <div class="row home-5">
+                    <div class="container">
+                    <h2 class="title-home">Tin tức</h2>
+                        <div class="row">                            
+                            <div class="new-home">
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 item">
+                                    <a href="http://fordhcm.net/he-thong-sync-3-hoan-toan-moi-cua-ford/" title="Hệ thống SYNC 3 hoàn toàn mới của Ford" class="thumb-news-item">
+                                        <img src="http://fordhcm.net/wp-content/themes/fordhcm/timthumb.php?src=http://fordhcm.net/wp-content/uploads/2016/10/fordsync3_hanoiford.jpg&amp;h=162&amp;w=262&amp;zc=1" alt="Hệ thống SYNC 3 hoàn toàn mới của Ford">
+                                    </a>
+                                    <a class="news-title" href="http://fordhcm.net/he-thong-sync-3-hoan-toan-moi-cua-ford/" title="Hệ thống SYNC 3 hoàn toàn mới của Ford">
+                                        <h3>Hệ thống SYNC 3 hoàn toàn mới của Ford</h3>
+                                    </a>
+                                    <p>Ford vừa giới thiệu hệ thống thông tin giải trí trên xe hơi thế hệ mới với tên gọi là SYNC 3. Được thiết kế với giao diện trực quan&hellip;</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 item">
+                                    <a href="http://fordhcm.net/4-ly-do-vi-sao-ford-ecosport-lai-hot-nhu-hien-nay/" title="4 lý do vì sao Ford EcoSport lại “hot” như hiện nay" class="thumb-news-item">
+                                        <img src="http://fordhcm.net/wp-content/themes/fordhcm/timthumb.php?src=http://fordhcm.net/wp-content/uploads/2016/10/14292268_3086391461389525_6400067311374397706_n.jpg&amp;h=162&amp;w=262&amp;zc=1" alt="4 lý do vì sao Ford EcoSport lại “hot” như hiện nay">
+                                    </a>
+                                    <a class="news-title" href="http://fordhcm.net/4-ly-do-vi-sao-ford-ecosport-lai-hot-nhu-hien-nay/" title="4 lý do vì sao Ford EcoSport lại “hot” như hiện nay">
+                                        <h3>4 lý do vì sao Ford EcoSport lại “hot” như hiện nay</h3>
+                                    </a>
+                                    <p>Trong tháng 9 vừa qua, Ford EcoSport đã lập kỷ lục bán hàng cao nhất tháng sau hơn 3 năm có mặt tại thị trường Việt Nam. Kết quả bán&hellip;</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 item">
+                                    <a href="http://fordhcm.net/suv-hang-sang-ford-explorer-co-gia-218-ty-dong-tai-viet-nam/" title="SUV hạng sang Ford Explorer có giá 2,18 tỷ đồng tại Việt Nam" class="thumb-news-item">
+                                        <img src="http://fordhcm.net/wp-content/themes/fordhcm/timthumb.php?src=http://fordhcm.net/wp-content/uploads/2016/10/1476072307-147607215751166-1.jpg&amp;h=162&amp;w=262&amp;zc=1" alt="SUV hạng sang Ford Explorer có giá 2,18 tỷ đồng tại Việt Nam">
+                                    </a>
+                                    <a class="news-title" href="http://fordhcm.net/suv-hang-sang-ford-explorer-co-gia-218-ty-dong-tai-viet-nam/" title="SUV hạng sang Ford Explorer có giá 2,18 tỷ đồng tại Việt Nam">
+                                        <h3>SUV hạng sang Ford Explorer có giá 2,18 tỷ đồng tại Việt Nam</h3>
+                                    </a>
+                                    <p>Trong khuôn khổ Triển lãm Ô tô Việt Nam 2016, bên cạnh rất nhiều mẫu xe mới với ngoại hình bắt mắt, Ford Explorer vẫn gây được sự chú ý&hellip;</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 item">
+                                    <a href="http://fordhcm.net/cong-nghe-ecoboost/" title="CÔNG NGHỆ ECOBOOST" class="thumb-news-item">
+                                        <img src="http://fordhcm.net/wp-content/themes/fordhcm/timthumb.php?src=http://fordhcm.net/wp-content/uploads/2016/10/28474746352_4d07a87cd6_o.png&amp;h=162&amp;w=262&amp;zc=1" alt="CÔNG NGHỆ ECOBOOST">
+                                    </a>
+                                    <a class="news-title" href="http://fordhcm.net/cong-nghe-ecoboost/" title="CÔNG NGHỆ ECOBOOST">
+                                        <h3>CÔNG NGHỆ ECOBOOST</h3>
+                                    </a>
+                                    <p>Động cơ đoạt giải thưởng Quốc tế EcoBoost là động cơ với công nghệ tiên tiến nhất của Ford. Khả năng tiết kiệm nhiên liệu lên đến 20% cùng công&hellip;</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end home-5 -->
+            </div>
+        </div>
+        <!-- end content -->
+        <div id="sub_branch">
+            <div class="alignall">
+                <div class="sbr_each">
+                    <div class="sbr_title">XE TOYOTA</div>
+                    <a href="http://otos.vn/tim-xe/toyota/camry">
+                        <div class="sbr_e">Xe Toyota Camry</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/toyota/vios">
+                        <div class="sbr_e">Xe Toyota Vios</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/toyota/innova">
+                        <div class="sbr_e">Xe Toyota Innova</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/toyota/corolla-altis">
+                        <div class="sbr_e">Xe Toyota Altis</div>
+                    </a>
+                </div>
+                <div class="sbr_each">
+                    <div class="sbr_title">XE KIA</div>
+                    <a href="http://otos.vn/tim-xe/kia/morning">
+                        <div class="sbr_e">Xe Kia Morning</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/kia/carens">
+                        <div class="sbr_e">Xe Kia Carens</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/kia/cerato">
+                        <div class="sbr_e">Xe Kia Cerato</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/kia/sorento">
+                        <div class="sbr_e">Xe Kia Sorento</div>
+                    </a>
+                </div>
+                <div class="sbr_each">
+                    <div class="sbr_title">XE HUYNDAI</div>
+                    <a href="http://otos.vn/tim-xe/hyundai/avante">
+                        <div class="sbr_e">Xe Huyndai Avante</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/hyundai/accent">
+                        <div class="sbr_e">Xe Huyndai Accent</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/hyundai/santa-fe">
+                        <div class="sbr_e">Xe Huyndai Santafe</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/hyundai/elantra">
+                        <div class="sbr_e">Xe Huyndai Elantra</div>
+                    </a>
+                </div>
+                <div class="sbr_each">
+                    <div class="sbr_title">XE MAZDA</div>
+                    <a href="http://otos.vn/tim-xe/mazda/3">
+                        <div class="sbr_e">Xe Mazda 3</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/mazda/cx-9">
+                        <div class="sbr_e">Xe Mazda CX9</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/mazda/bt-50">
+                        <div class="sbr_e">Xe Mazda BT50</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/mazda/cx-5">
+                        <div class="sbr_e">Xe Mazda CX5</div>
+                    </a>
+                </div>
+                <div class="sbr_each">
+                    <div class="sbr_title">XE FORD</div>
+                    <a href="http://otos.vn/tim-xe/ford/everest">
+                        <div class="sbr_e">Xe Ford Everest</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/ford/ecosport">
+                        <div class="sbr_e">Xe Ford Ecosport</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/ford/focus">
+                        <div class="sbr_e">Xe Ford Focus</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/ford/ranger">
+                        <div class="sbr_e">Xe Ford Ranger</div>
+                    </a>
+                </div>
+                <div class="sbr_each">
+                    <div class="sbr_title">XE HONDA</div>
+                    <a href="http://otos.vn/tim-xe/honda/city">
+                        <div class="sbr_e">Xe Honda City</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/honda/accord">
+                        <div class="sbr_e">Xe Honda Accord</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/honda/cr-v">
+                        <div class="sbr_e">Xe Honda CRV</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/honda/civic">
+                        <div class="sbr_e">Xe Honda Civic</div>
+                    </a>
+                </div>
+                <div class="sbr_each">
+                    <div class="sbr_title">XE CHEVROLET</div>
+                    <a href="http://otos.vn/tim-xe/chevrolet/cruze">
+                        <div class="sbr_e">Xe Chevrolet Cruze</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/chevrolet/spark">
+                        <div class="sbr_e">Xe Chevrolet Spark</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/chevrolet/aveo">
+                        <div class="sbr_e">Xe Chevrolet Aveo</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/chevrolet/captiva">
+                        <div class="sbr_e">Xe Chevrolet Captiva</div>
+                    </a>
+                </div>
+                <div class="sbr_each">
+                    <div class="sbr_title">XE MITSUBISHI</div>
+                    <a href="http://otos.vn/tim-xe/mitsubishi/attrage">
+                        <div class="sbr_e">Xe Mitsubishi Attrage</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/mitsubishi/mirage">
+                        <div class="sbr_e">Xe Mitsubishi Mirage</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/mitsubishi/outlander">
+                        <div class="sbr_e">Xe Mitsubishi Outlander</div>
+                    </a>
+                    <a href="http://otos.vn/tim-xe/mitsubishi/pajero">
+                        <div class="sbr_e">Xe Mitsubishi Pajero</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- end sub_branch -->
+        <footer>
+            <div id="footer" class="page-footer">
+                <div class="alignall">
+                    <div id="newsfeed">
+                        <div id="sp_hotline">
+                            <a href="http://otos.vn/lien-he">
+                                <div class="the_title" title="Tư vấn &amp; Hỗ trợ">
+                                    <strong>TƯ VẤN &amp; HỖ TRỢ</strong>
+                                </div>
+                            </a>
+                            <div class="the_main">Nếu bạn đang tìm hiểu mua xe và có các thắc mắc chưa thể giải đáp, hãy gọi ngay cho chúng tôi theo số <div>0906 870 699</div>. Đội ngũ tư vấn của chúng tôi sẽ giải đáp và tư vấn cho bạn chiếc xe phù hợp nhất.</div>
+                        </div>
+                        <span><strong>Đăng ký nhận bản tin từ OtoS<br> Website <a href="http://otos.vn" title="http://otos.vn">mua bán ô tô</a></strong></span>
+                        <div id="wrap_newsfeed">
+                            <div class="clearfix">
+                                <div id="newsfeed_inp">
+                                    <input type="text" id="idEmail" maxlength="50" class="txtnewsletter" placeholder="Nhập email của bạn">
+                                </div>
+                                <button id="newsfeed_btn">GỬI THÔNG TIN</button>
+                            </div>
+                            <div class="app-download-banner">
+                                <div class="app-download-title">Tải ứng dụng OtoS tại</div>
+                                <div class="appstore-list clearfix">
+                                    <div class="app-item apple">
+                                        <a target="_blank" href="https://itunes.apple.com/us/app/otos-san-mua-ban-tin-tuc-dich/id1178016748?ls=1;mta=8">
+                                            <img src="../images/appStore.png" alt="Tải ứng dụng tại AppStore ">
+                                        </a>
+                                    </div>
+                                    <div class="app-item android">
+                                        <a target="_blank" href="https://play.google.com/store/apps/details?id=hq.eBiz.OTOS">
+                                            <img src="../images/CHplay.png" alt="Tải ứng dụng tại Google Play ">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="res_credit">© 2017 - Bản quyền của Công Ty Cổ Phần OtoS.</div>
+                        <div class="res_credit">Ghi rõ nguồn “OtoS.vn” khi bạn phát hành lại thông tin từ website này.</div>
+                    </div>
+                    <div id="credit">
+                        <div id="sitemap">
+                            <div class="sbr_each">
+                                <div class="sbr_title"><strong>MUA BÁN Ô TÔ</strong>
+                                </div>
+                                <a href="http://otos.vn/tim-xe/xe-moi">
+                                    <div class="sbr_e">Mua ô tô mới</div>
+                                </a>
+                                <a href="http://otos.vn/tim-xe/xe-cu">
+                                    <div class="sbr_e">Mua ô tô cũ</div>
+                                </a>
+                                <a href="http://otos.vn/tim-xe" rel="nofollow">
+                                    <div class="sbr_e">Tìm kiếm xe ô tô</div>
+                                </a>
+                                <a href="http://otos.vn/bang-gia-dich-vu" rel="nofollow">
+                                    <div class="sbr_e">Bảng giá dịch vụ</div>
+                                </a>
+                            </div>
+                            <div class="sbr_each">
+                                <div class="sbr_title"><strong>TÀI KHOẢN</strong>
+                                </div>
+                                <a href="http://otos.vn/dang-ky?ref=dk" rel="nofollow">
+                                    <div class="sbr_e">Đăng ký tài khoản</div>
+                                </a>
+                                <a href="http://otos.vn/dang-ky" rel="nofollow">
+                                    <div class="sbr_e">Đăng nhập</div>
+                                </a>
+                                <a href="http://otos.vn/quen-mat-khau" rel="nofollow">
+                                    <div class="sbr_e">Quên mật khẩu</div>
+                                </a>
+                                <a href="http://otos.vn/huong-dan-su-dung">
+                                    <div class="sbr_e">Hướng dẫn sử dụng</div>
+                                </a>
+                            </div>
+                            <div class="sbr_each">
+                                <a href="http://otos.vn/trang-tin">
+                                    <div class="sbr_title"><strong>TRANG TIN</strong>
+                                    </div>
+                                </a>
+                                <a href="http://otos.vn/trang-tin/tin-tuc" rel="nofollow">
+                                    <div class="sbr_e">Tin tức</div>
+                                </a>
+                                <a href="http://otos.vn/trang-tin/tu-van">
+                                    <div class="sbr_e">Tư vấn</div>
+                                </a>
+                                <a href="http://otos.vn/trang-tin/danh-gia-xe">
+                                    <div class="sbr_e">Đánh giá xe</div>
+                                </a>
+                                <a href="http://otos.vn/trang-tin/so-sanh-xe">
+                                    <div class="sbr_e">So sánh xe</div>
+                                </a>
+                                
+                                <a href="http://otos.vn/trang-tin/khuyen-mai">
+                                    <div class="sbr_e">Khuyến mãi</div>
+                                </a>
+                                <a href="http://otos.vn/trang-tin/video">
+                                    <div class="sbr_e">Video</div>
+                                </a>
+                                <a href="http://otos.vn/trang-tin/hoi-dap">
+                                    <div class="sbr_e">Hỏi đáp</div>
+                                </a>
+                            </div>
+                            <div class="sbr_each">
+                                <div class="sbr_title"><strong>CÔNG TY</strong>
+                                </div>
+                                
+                                <a href="http://otos.vn/gioi-thieu">
+                                    <div class="sbr_e">Giới thiệu OtoS</div>
+                                </a>
+                                <a href="http://otos.vn/lien-he">
+                                    <div class="sbr_e">Liên hệ</div>
+                                </a>
+                                <a href="http://otos.vn/dieu-khoan-su-dung">
+                                    <div class="sbr_e">Điều khoản sử dụng</div>
+                                </a>
+                                <a href="http://otos.vn/chinh-sach-bao-mat">
+                                    <div class="sbr_e">Chính sách bảo mật</div>
+                                </a>
+                                <a href="http://otos.vn/sitemap">
+                                    <div class="sbr_e">Sitemap</div>
+                                </a>
+                            </div>
+                        </div>
+                        © 2017 - Bản quyền của Công Ty Cổ Phần OtoS.
+                        Tel: (84-8) 6686 4200 - Hotline: 0906 870 699 - Email: info@otos.vn
+                        - Address: 68 Nam Kỳ Khởi Nghĩa, Phường Nguyễn Thái Bình, Quận 1, Thành phố Hồ Chí Minh.
+                        <br>
+                        <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=11882">
+                            <img alt="OtoS.vn đã đăng ký với bộ công thương" title="OtoS.vn đã đăng ký với bộ công thương" src="http://otos.vn/ContentNew/images/Credit.png">
+                        </a> Giấy phép số 011/GP-TTĐT - Sở thông tin và truyền thông TP. Hồ Chí Minh - Cấp ngày 26/01/2015. Người chịu trách nhiệm nội dung: Nguyễn Ngọc Vĩnh. Ghi rõ nguồn “OtoS.vn” khi bạn phát hành lại thông tin từ website này.
+                        <br>Otos không bán xe trực tiếp, quý khách mua xe vui lòng liên hệ trực tiếp người đăng tin.
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </body>
+</html>

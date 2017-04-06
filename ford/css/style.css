@@ -1,0 +1,84 @@
+.special .content {
+  padding: 20px 0px;
+  margin-top: 0;
+}
+.special .content img {
+  width: 100%;
+}
+.special p {
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.home-1, .home-2, .home-3, .home-5 {
+  background-color: #F5F5F5;
+  padding-bottom: 27px;
+  padding-top: 20px;
+}
+.home-1 h2, .home-2 h2, .home-3 h2, .home-5 h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.home-1 .item {
+  padding: 0px 30px;
+}
+
+.home-2 {
+  background-color: #fff;
+}
+.home-2 a span {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.home-2 p {
+  text-align: center;
+}
+.home-2 p span {
+  color: red;
+  font-weight: bold;
+}
+
+.home-3 {
+  padding-bottom: 38px;
+}
+.home-3 h2 {
+  margin-bottom: 15px;
+}
+.home-3 img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.home-4 {
+  padding-top: 20px;
+  padding-bottom: 33px;
+}
+.home-4 i.fa {
+  width: 20px;
+}
+.home-4 h2 {
+  font-weight: bold;
+}
+.home-4 h3 {
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.home-5 {
+  text-align: left;
+}
+.home-5 h3 {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1.4;
+  color: #333;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
